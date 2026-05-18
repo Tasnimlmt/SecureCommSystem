@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Portal - Secure Electronic Voting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🗳️</span>
+                <span class="logo-text">SECURE VOTING</span>
+            </div>
+            <div class="nav-links">
+                <a href="/">Dashboard</a>
+                <a href="/voting" class="active">Voting Portal</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: auto; padding: 120px 20px 60px">
+        <div class="hero-content">
+            <h1 class="hero-title">SECURE <span class="gradient-text">VOTING PORTAL</span></h1>
+            <p class="hero-subtitle">Homomorphic Encryption · Zero-Knowledge Proofs</p>
+        </div>
+    </section>
+
+    <section class="elections-section">
+        <div class="container">
+            <div class="section-header">
+                <h2><span class="section-icon">🗳️</span> ACTIVE ELECTIONS</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="elections-grid" id="electionsGrid"></div>
+        </div>
+    </section>
+
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">🔐 SECURE VOTING</div>
+                <div class="footer-text">Homomorphic Encryption · Zero-Knowledge Proofs</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
